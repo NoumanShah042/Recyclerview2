@@ -43,6 +43,7 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.MyViewHolder> {
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
+            // add references of the view from xml file
             img = (ImageView) itemView.findViewById(R.id.img1);
             tv = (TextView) itemView.findViewById(R.id.t1);
         }

@@ -22,3 +22,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+/*
+*    1) add dependency
+*    2) create single row xml file
+*    3) create mainXML file and add recycler view in it
+*    4) set layout manager for recycler view
+*    5) create adapter class
+*    6) set adapter
+*
+*
+* */

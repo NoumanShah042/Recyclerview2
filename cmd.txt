@@ -1,0 +1,26 @@
+ 1) add dependency
+*    2) create single row xml file
+*    3) create mainXML file and add recycler view in it
+*    4) set layout manager for recycler view
+*    5) create adapter class
+*    6) set adapter 
+
+
+
+
+adapter class:
+/*
+*    1) create class and extend  RecyclerView.Adapter:
+*           class myAdapter extends RecyclerView.Adapter
+*   2) create your view holder ( MyViewHolder ) and initializes all the views with your singleRow layout views id
+*           MyViewHolder extends RecyclerView.ViewHolder
+*
+*    3) add MyViewHolder to RecyclerView.Adapter<myAdapter.MyViewHolder>
+*       class myAdapter extends RecyclerView.Adapter<myAdapter.MyViewHolder>
+
+*   4) now implement the other methods
+*
+*
+* */
+ 
+
